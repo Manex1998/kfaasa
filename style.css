@@ -21,8 +21,8 @@ a {
 
 .btn {
     border: none;
-    padding: 8px 25px;
-    border-radius: 15px;
+    padding: 8px 30px;
+    border-radius: 18px;
     font-weight: 500;
     cursor: pointer;
     transition: 0.3s;
@@ -102,7 +102,7 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    line-height: 7rem;
+    
     
 }
 
@@ -111,6 +111,7 @@ a {
     font-size: 8rem;
     font-weight: 900;
     color: #06569b;
+    line-height: 6.5rem;
 }
 
 .hero_description, .hero_buttons {
@@ -178,6 +179,7 @@ a {
 .about_title {
 
     font-size: 2.5rem;
+    font-weight: 900;
     color: #fff;
     
 }
@@ -211,7 +213,7 @@ a {
 
     width: 40rem;
     height: auto;
-    background-image: url('/images/Nurse.png');
+    background-image: url('/images/Nurse.webp');
     background-size: cover;
 
 }
@@ -238,10 +240,10 @@ a {
 .services_title {
 
     color: #fff;
-    font-size: 1.8rem;
-    font-weight: 700;
-    line-height: 3rem;
-    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    margin-bottom: 1.8rem;
 
 }
 
@@ -311,7 +313,7 @@ a {
 .contact_title {
 
     font-size: 1.6rem;
-    font-weight: 800;
+    font-weight: 900;
     color: #92326f;
 
 }
@@ -455,6 +457,14 @@ input::placeholder, textarea::placeholder {
 
     gap: 0.5rem;
     margin-top: 1.5rem;
+
+}
+
+.navbar-nav {
+
+    background-color: #92326fcc;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
 
 }
 
