@@ -1,0 +1,464 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+
+body {
+
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border: none;
+    padding: 8px 25px;
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.95rem;
+}
+
+
+.image {
+
+    width: 350px ;
+    height: 450px;
+    background-image: url('/images/Kidney.png');
+    background-size: cover;
+
+}
+
+
+.header{
+
+    background-image: url('images/Background.png');
+    background-size: cover;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    z-index: 1000;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: end;
+    
+}
+
+.navlist {
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.nav_link {
+
+    color: #000;
+
+}
+
+.hero-section {
+
+    background-image: url('images/Background.png');
+    background-size: cover;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
+}
+
+
+.hero-section {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+}
+
+.hero_big_text {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    line-height: 7rem;
+    
+}
+
+.hero_title {
+
+    font-size: 8rem;
+    font-weight: 900;
+    color: #06569b;
+}
+
+.hero_description, .hero_buttons {
+
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.hero_description {
+
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #92326f;
+
+}
+
+.services-btn {
+    background-color: #92326f;
+    color: #fff;
+    transition: 0.5ms ease-in-out;
+}
+
+.services-btn:hover {
+    background-color: transparent;
+    color: #92326f;
+    border: 2px solid #92326f;
+}
+
+.contact-btn {
+
+    background-color: #06569b;
+    color: #fff;
+    transition: 0.5ms ease-in-out;
+
+}
+
+.contact-btn:hover {
+
+    background-color: transparent;
+    color: #06569b;
+    border: 2px solid #06569b;
+
+}
+
+
+.about {
+
+    background: linear-gradient(145deg, #57abd7,#0c5d9f , #0c5d9f);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.about_text {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    padding-bottom: 8rem;
+    width: 600px;
+
+}
+
+.about_title {
+
+    font-size: 2.5rem;
+    color: #fff;
+    
+}
+
+.about_buttons {
+
+    margin-top: 3rem;
+
+}
+
+.about_description {
+
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+.learn_more {
+    background-color: #92326f;
+    color: #fff;
+    transition: 0.5ms ease-in-out;
+}
+
+.learn_more:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.nurse_image {
+
+    width: 40rem;
+    height: auto;
+    background-image: url('/images/Nurse.png');
+    background-size: cover;
+
+}
+
+.services {
+
+    background: linear-gradient(145deg, #bf3e77, #aa3873 , #92326f);
+    padding-top: 6rem;
+    padding-left: 11rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.services_background {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.services_title {
+
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.services_slider {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 4rem;
+
+
+}
+
+.service_image {
+
+    max-width: 350px ;
+    height: auto;
+    text-align: center;
+
+}
+
+.service_image img {
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid #fff;
+    border-radius: 1.5rem;
+    
+}
+
+.service_image p {
+
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+
+}
+
+.get_in_touch {
+    background-color: #fff;
+    color: #92326f;
+    transition: 0.5ms ease-in-out;
+}
+
+.get_in_touch:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.contact {
+
+    background-image: url('images/Background.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 6rem 6rem;
+
+}
+
+.contact_title {
+
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #92326f;
+
+}
+
+.contact_form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+
+}
+
+input, textarea {
+
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 1rem;
+    border: 3px solid #92326f;
+
+}
+
+input::placeholder, textarea::placeholder {
+
+    color: #92326f;
+    font-size: 1rem;
+
+}
+
+.submit {
+    background-color: #92326f;
+    color: #fff;
+    transition: 0.5ms ease-in-out;
+}
+
+.submit:hover {
+    background-color: transparent;
+    color: #92326f;
+    border: 2px solid #92326f;
+}
+
+.contact_number, .contact_email, .address {
+
+    font-weight: 600;
+
+}
+
+.address {
+
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .navlist {
+
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .navbar {
+
+        justify-content: center;
+
+    }
+
+    .hero-section {
+
+        gap: 4rem;
+
+    }
+
+    .hero_title {
+
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    .hero_description {
+
+        font-size: 1rem;  
+
+    }
+
+    .hero_big_text {
+
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .about_text {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        width: 600px;
+
+    }
+
+    .about_title {
+
+        font-size: 2rem;
+        color: #fff;
+        line-height: 2rem;
+        
+    }
+
+    .about_buttons {
+
+        margin-top: 1.5rem;
+
+    }
+
+.about_description {
+
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.services {
+
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+    
+}
+
+.contact {
+
+    gap: 1rem;
+    padding: 3rem 3rem;
+}
+
+.contact_form {
+
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+
+}
+
+}
+
+
+
