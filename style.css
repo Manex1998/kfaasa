@@ -62,8 +62,8 @@ a {
  .navbar-brand {
 
     width: 80px;
-    height: auto;
     border-radius: 50%;
+    
 }
 
 .navbar-brand img {
@@ -71,7 +71,8 @@ a {
     width: 100%;
     height: auto;
     object-fit: cover;
-    
+    /* very light black shadow: x-offset, y-offset, blur, rgba */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 
 }
 
