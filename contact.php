@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !isset($_SESSION['form_submitted']))
     $confirmBody = "
         <html><body>
         <p>Dear {$name},</p>
-        <p>Thank you for reaching out to Kidney Failure Awareness SA. We've received your message:</p>
+        <p>Thank you for reaching out to Kidney Failure Awareness & Awareness SA. We've received your message:</p>
         <blockquote>{$message}</blockquote>
         <p>We'll respond shortly.</p>
         <p><strong>- The KFAASA Team</strong></p>
