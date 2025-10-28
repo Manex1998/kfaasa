@@ -299,7 +299,7 @@ a {
 
 .about_description {
 
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
 
 }
@@ -354,6 +354,19 @@ a {
 
 }
 
+.services_title p, .service_descr {
+
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+
+}
+
+.service_descr {
+
+    width: 40%;
+}
+
 .services_slider {
 
     display: flex;
@@ -367,11 +380,14 @@ a {
 
 .service_image {
 
-    max-width: 350px ;
-    height: auto;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 
 }
+
 
 .service_image img {
 
@@ -474,6 +490,18 @@ input::placeholder, textarea::placeholder {
 
 }
 
+.donate {
+    background-color: #92326f;
+    color: #fff;
+    transition: 0.5ms ease-in-out;
+}
+
+.donate:hover {
+    background-color: transparent;
+    color: #92326f;
+    border: 2px solid #92326f;
+}
+
 @media screen and (max-width: 1200px) {
 
 
@@ -542,7 +570,7 @@ input::placeholder, textarea::placeholder {
 
 .about_description {
 
-    font-size: 1rem;
+    font-size: 0.75rem;
     color: #fff;
 
 }
@@ -554,6 +582,31 @@ input::placeholder, textarea::placeholder {
     padding-right: 4rem;
     padding-bottom: 4rem;
     
+}
+
+.service_image {
+
+    flex-direction: column;
+    gap: 0rem;
+
+}
+
+.services_title p {
+
+    font-size: 1rem;
+    line-height: 1rem;
+
+}
+
+.service_descr {
+
+    font-size: 0.8rem !important;
+    line-height: 0.8rem !important;
+    width: 100% !important;
+}
+
+.service {
+    margin: auto;
 }
 
 .contact {
